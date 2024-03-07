@@ -12,6 +12,7 @@ def error_correction(df):
 
     clusters = []
 
+    #add information
     # Iterate through cluster by position with a difference range of 100
     current_cluster = []
     for index, row in df.iterrows():
